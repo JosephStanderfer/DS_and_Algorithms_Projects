@@ -1,9 +1,8 @@
 # Data Structures and Algorithms Projects
 Contains 6 Java projects from my Data Structures and Algorithms class at Carnegie Mellon (Spring 2019). These projects include:
 
-#### * P1 Merkle-Hellman Knapsack Cryptosystem
-	
-	Uses my implementation of the Merkel-Hellman Knapsack algorithm to encrypt/decrypt files. The files are decrypted using a private key – a super increasing sequence of BigIntegers. The files are encrypted using a modified (scrambled) version of the private key, by taking a summation of each index and matching file bit. The encrypted file cannot be decrypted in less than polynomial time without knowing the private key.
+* P1 Merkle-Hellman Knapsack Cryptosystem
+		*	Uses my implementation of the Merkel-Hellman Knapsack algorithm to encrypt/decrypt files. The files are decrypted using a private key – a super increasing sequence of BigIntegers. The files are encrypted using a modified (scrambled) version of the private key, by taking a summation of each index and matching file bit. The encrypted file cannot be decrypted in less than polynomial time without knowing the private key.
 
 * P1 Merkle Tree
 	Creates a hash-tree where every node in the tree is the cryptographic hash of its children. Used for efficiently verifying the integrity of large data structures. 
